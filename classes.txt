@@ -1,0 +1,10 @@
+BOOKKEEPER, modulo bookkeeper-server:
+org.apache.bookkeeper.bookie.Journal
+org.apache.bookkeeper.bookie.storage.ldb.ReadCache
+
+OPENJPA, modulo openjpa-kernel:
+org.apache.openjpa.util.ProxyManagerImpl
+org.apache.openjpa.kernel.BrokerImpl
+
+(in aggiunta per l'integration testing)
+org.apache.openjpa.event.LifecycleEventManager
